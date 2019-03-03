@@ -1,6 +1,6 @@
 require("dotenv").config();
 var keys = require("./keys.js");
-var spotify = require("node-spotify-api");
+var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
 var axios = require("axios");
@@ -41,15 +41,33 @@ function concertThis(artist){
             console.log(error.config);
         });
     }
-    function spotifyThis(){
-        spotify.search({type: "track", query: artist}, function(err, result){
-            if (error){
-                console.log(error);//console.error
+    function spotifyThis(song){
+        spotify.search({ type: 'track', query: song }, function(err, data) {
+            if (err) {
+              return console.log('Error occurred: ' + err);
             }
-            if (result.tracks.items[0].preview_url === null){
-                console.log("No preview available");
-            }
-        })
+            
+        //   console.log(data.tracks.items); 
+          console.log(data.tracks.items[0].name); 
+          console.log(data.tracks.items[0].artists[0].name); 
+          console.log(data.tracks.items[0].preview_url);
+          console.log(data.tracks.items[0].album.name); 
+
+          });
 
     }
 
+    spotifyThis("happy");
+
+    function movieThis(movie){
+        axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
+            function(response){
+                console.log("Movie Title: " + response.data.Title);
+                console.log("Release Year: " + response.data.Year);
+                console.log("IMBD rating: " + response.data.Year);
+
+
+
+            })
+    }
+movieThis("avengers");
