@@ -18,8 +18,11 @@ The app takes the following commands and searches Spotify for songs, Bands in To
  
  displays in the terminal and is also appended to the log.txt file.
  
- showcase video of the Liri APP
- 
+
+(https://github.com/njorogepeter/liri-node-app/blob/master/assests/Liri-app2.png)
+
+
+(https://github.com/njorogepeter/liri-node-app/blob/master/assests/Liri-app1.png)
  
  APIs used: BandsInTown, Spotify, Open Movie Database
  NPM used: axios, spotify-node-api, fs, moment, dotenv
