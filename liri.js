@@ -10,7 +10,6 @@ var liriCmd = process.argv[2];
 var search = process.argv[3];
 
 
-
 // Bands in Town Artist Events 
 function concertThis(search){
     axios.get("https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp").then(
@@ -33,7 +32,7 @@ function concertThis(search){
             }
 
             console.log("\n------------ARTIST CONCERT INFORMATION---------------" + concertData);
-            addText("Concert Event info: \n" + concertData + "\n");
+            addText("Concert Event infomation: \n" + concertData + "\n");
 
         })
         .catch(function(error) {
@@ -76,7 +75,7 @@ function spotifyThis(search){
 
         console.log("\n-------------SONG INFORMATION----------------\n" + songData);
 
-        addText("Song info: \n" + songData + "\n");
+        addText("Song information: \n" + songData + "\n");
 
         });
 
@@ -133,12 +132,19 @@ function doWhatItSays(){
             return console.log(error);
         }
 
-        console.log("Accessing file........\n");
-
         var dataArray = data.split(",");
-        console.log(dataArray);
-        liriCmd(dataArray[1], dataArray[0]);
 
+        console.log(dataArray);
+        if(dataArray[0] === "concert-this"){
+            var search = dataArray[1].slice(1, -1);
+            concertThis(search);
+        } else if (dataArray[0]=== "spotify-this-song"){
+            var search = dataArray[1].slice(1, -1);
+            spotifyThis(search);
+        } else if (dataArray[0]=== "movie-this"){
+            var search = dataArray[1].slice(1, -1);
+            movieThis(search);
+        }
     });
 }
 
@@ -172,11 +178,10 @@ switch (liriCmd){
     
     default:
             console.log("Sorry - I didn't understand that. Please enter one of the following commands\n"
-             + "liri concert-this <artist/band name here> \n" 
-             + "liri spotify-this-song <song name here> \n"
-             + "liri movie-this <movie name here> \n"
-             + "liri do-what-it-says");
+            + "liri concert-this <artist/band name here> \n" 
+            + "liri spotify-this-song <song name here> \n"
+            + "liri movie-this <movie name here> \n"
+            + "liri do-what-it-says");
             break;
 }
-
 

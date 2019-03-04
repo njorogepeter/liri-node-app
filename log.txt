@@ -1,12 +1,106 @@
-Song info: 
-Artist(s): Thomas Rhett
-Song Name: Die A Happy Man
-Preview Link:  null
-Album: Tangled Up
-
-Song info: 
+Song information: 
 Artist(s): Ace of Base
 Song Name: The Sign
 Preview Link:  https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=c84ae9ed719244509cb17fc223138d47
 Album: The Sign (US Album) [Remastered]
+
+Concert Event infomation: 
+
+Name of Venue: Christian Fellowship Church
+Venue location: Ashburn, VA
+Date of Event: 03/14/2019
+-----------------------------------
+Name of Venue: First Roanoke
+Venue location: Roanoke, VA
+Date of Event: 03/15/2019
+-----------------------------------
+Name of Venue: The Park Church
+Venue location: Charlotte, NC
+Date of Event: 03/16/2019
+-----------------------------------
+Name of Venue: Buckhead Church
+Venue location: Atlanta, GA
+Date of Event: 03/17/2019
+-----------------------------------
+Name of Venue: Second Baptist Church - West Campus
+Venue location: Houston, TX
+Date of Event: 03/21/2019
+-----------------------------------
+Name of Venue: College Park Center
+Venue location: Arlington, TX
+Date of Event: 03/22/2019
+-----------------------------------
+Name of Venue: City Church
+Venue location: New Orleans, LA
+Date of Event: 03/23/2019
+-----------------------------------
+Name of Venue: Hunter Street Baptist
+Venue location: Hoover, AL
+Date of Event: 03/24/2019
+-----------------------------------
+Name of Venue: NorthRidge Church
+Venue location: Plymouth, MI
+Date of Event: 03/28/2019
+-----------------------------------
+Name of Venue: Traders Point Church
+Venue location: Whitestown, IN
+Date of Event: 03/29/2019
+-----------------------------------
+Name of Venue: Life Changers International
+Venue location: Hoffman Estates, IL
+Date of Event: 03/30/2019
+-----------------------------------
+Name of Venue: church on the rock
+Venue location: St. Peters, MO
+Date of Event: 04/04/2019
+-----------------------------------
+Name of Venue: Tri County Assembly
+Venue location: Fairfield, OH
+Date of Event: 04/05/2019
+-----------------------------------
+Name of Venue: Grand Rapids First
+Venue location: Wyoming, MI
+Date of Event: 04/06/2019
+-----------------------------------
+Name of Venue: Celebration Church
+Venue location: Richmond, VA
+Date of Event: 04/07/2019
+-----------------------------------
+Name of Venue: Northland Church
+Venue location: Longwood, FL
+Date of Event: 04/11/2019
+-----------------------------------
+Name of Venue: First Baptist | FTL
+Venue location: Fort Lauderdale, FL
+Date of Event: 04/12/2019
+-----------------------------------
+Name of Venue: Idlewild Church
+Venue location: Lutz, FL
+Date of Event: 04/13/2019
+-----------------------------------
+Song info: 
+Movie Title: The Avengers
+Release Year: 2012
+IMBD rating: 8.1
+Rotten Tomatoes: 92%
+Country produced: USA
+Language: English, Russian, Hindi
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+
+Song info: 
+Movie Title: The Avengers
+Release Year: 2012
+IMBD rating: 8.1
+Rotten Tomatoes: 92%
+Country produced: USA
+Language: English, Russian, Hindi
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+
+Song information: 
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+Preview Link:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=c84ae9ed719244509cb17fc223138d47
+Album: The Hits--Chapter One
 
